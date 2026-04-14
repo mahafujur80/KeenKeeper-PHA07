@@ -22,7 +22,7 @@ const FriendDetails = () => {
         <div className='bg-sky-50 py-10'>
             <div className='max-w-[80%] mx-auto grid max-sm:grid-cols-1 grid-cols-12 gap-5'>
                 
-                    <div className='col-span-4 space-y-3'>
+                    <div className='lg:col-span-4 space-y-3'>
                         <div className='bg-white rounded-2xl  p-5 flex flex-col items-center justify-center'>
                             <div className='w-25'>
                                 <img className='w-20 h-20 rounded-full object-cover' src={friend.picture} alt="image" />
@@ -48,7 +48,7 @@ const FriendDetails = () => {
                     </div>
                 
 
-                <div className='col-span-8 space-y-3'>
+                <div className='lg:col-span-8 space-y-3'>
                     <div className='grid max-sm:grid-cols-1 lg:grid-cols-3 gap-3'>
                         <div className='bg-white rounded-2xl flex items-center justify-center flex-col  py-7'>
                             <h1 className='font-bold'>{friend.days_since_contact}</h1>
