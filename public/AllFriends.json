@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "picture": "https://i.ibb.co.com/4ZyWTZt2/pexels-italo-melo-881954-2379005.jpg",
+    "email": "john@example.com",
+    "days_since_contact": 12,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together.",
+    "goal": 14,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Smith",
+    "picture": "https://i.ibb.co.com/KcgPqNXw/pexels-artosuraj-27665348.jpg",
+    "email": "sarah@example.com",
+    "days_since_contact": 5,
+    "status": "on_track",
+    "tags": ["office", "team"],
+    "bio": "Works in same team. Weekly sync.",
+    "goal": 7,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 3,
+    "name": "Michael Brown",
+    "picture": "https://i.ibb.co.com/bjNFxDNk/pexels-eric-moura-859101902-32270247.jpg",
+    "email": "michael@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["gym", "buddy"],
+    "bio": "Workout partner. Missed sessions lately.",
+    "goal": 10,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 4,
+    "name": "Emily Johnson",
+    "picture": "https://i.ibb.co.com/rSV8kYd/pexels-beytlik-12216274.jpg",
+    "email": "emily@example.com",
+    "days_since_contact": 2,
+    "status": "on_track",
+    "tags": ["family"],
+    "bio": "Cousin. Regular check-ins.",
+    "goal": 7,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 5,
+    "name": "David Wilson",
+    "picture": "https://i.ibb.co.com/YT3wK4LX/pexels-olly-3777946.jpg",
+    "email": "david@example.com",
+    "days_since_contact": 15,
+    "status": "overdue",
+    "tags": ["client", "work"],
+    "bio": "Important client follow-up pending.",
+    "goal": 10,
+    "next_due_date": "2026-04-12"
+  },
+  {
+    "id": 6,
+    "name": "Olivia Martinez",
+    "picture": "https://i.ibb.co.com/0jRSZw9T/pexels-hoang1nang-6962962.jpg",
+    "email": "olivia@example.com",
+    "days_since_contact": 3,
+    "status": "on_track",
+    "tags": ["school", "friend"],
+    "bio": "Old school friend. Catch up often.",
+    "goal": 7,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 7,
+    "name": "James Anderson",
+    "picture": "https://i.ibb.co.com/TMDm6tFk/pexels-italo-melo-881954-2379004.jpg",
+    "email": "james@example.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["mentor"],
+    "bio": "Career mentor. Need to reconnect.",
+    "goal": 14,
+    "next_due_date": "2026-04-08"
+  },
+  {
+    "id": 8,
+    "name": "Sophia Taylor",
+    "picture": "https://i.ibb.co.com/RTfzYqd5/pexels-bertellifotografia-13870723.jpg",
+    "email": "sophia@example.com",
+    "days_since_contact": 1,
+    "status": "on_track",
+    "tags": ["neighbor"],
+    "bio": "Lives nearby. Friendly chats.",
+    "goal": 5,
+    "next_due_date": "2026-04-17"
+  }
+]
