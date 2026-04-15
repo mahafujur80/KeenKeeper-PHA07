@@ -14,12 +14,12 @@ const HistoryTML = ({ filterHistory }) => {
             {
                 filterHistory.map(friend => {
                     return (
-                        <div className='shadow flex gap-3 bg-white p-3 rounded-xl'>
+                        <div className='shadow flex gap-3 bg-white p-3 rounded-xl hover:-translate-x-2 active:scale-98 transform transition'>
                             <div>
                                 <img src={`${friend.type === "Text" ? TextImg : friend.type === "Call"? CallImg : VideoImg}`} alt={friend.type} />
                             </div>
                             <div>
-                                <p className='text-zinc-600'><span>{friend.type}</span> with <span>{friend.name}</span> </p>
+                                <p className='text-zinc-600'><span className='font-bold'>{friend.type}</span> with <span>{friend.name}</span> </p>
                                 <p>{friend.date}</p>
                             </div>
                         </div>

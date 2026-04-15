@@ -3,7 +3,7 @@ import { Link} from 'react-router';
 
 const FriendCard = ({friend}) => {
     return (
-        <Link to={`/friendDetails/${friend.id}`} className='bg-white rounded-2xl p-5 flex flex-col items-center justify-center'>
+        <Link to={`/friendDetails/${friend.id}`} className='hover:-translate-y-2 hover:shadow-lg transform transition bg-white rounded-2xl p-5 flex flex-col items-center justify-center'>
                             <div className='w-25'>
                                 <img className='w-20 h-20 rounded-full object-cover' src={friend.picture} alt="image" />
                             </div>

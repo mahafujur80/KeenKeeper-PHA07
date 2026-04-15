@@ -29,7 +29,7 @@ const FriendDetails = () => {
                             <img className='w-20 h-20 rounded-full object-cover' src={friend.picture} alt="image" />
                         </div>
                         <div className='space-y-2 flex flex-col justify-center items-center'>
-                            <h1>{friend.name}</h1>
+                            <h1 className='font-bold pt-2'>{friend.name}</h1>
                             <div>
                                 <p className={`badge text-white ${friend.status === 'overdue' ? 'badge-error' : 'badge-success'}`} >{friend.status}</p>
                             </div>
@@ -39,6 +39,7 @@ const FriendDetails = () => {
                                 }
                             </div>
                             <p className='text-zinc-500'>{friend.bio}</p>
+                            <p className='text-zinc-500'>Email: {friend.email}</p>
                         </div>
                     </div>
                     <div className='flex flex-col space-y-2'>
@@ -49,7 +50,7 @@ const FriendDetails = () => {
                 </div>
 
 
-                <div className='md:col-span-8 lg:col-span-8 space-y-3'>
+                <div className='md:col-span-8 lg:col-span-8 space-y-5'>
                     <div className='grid max-sm:grid-cols-1 lg:grid-cols-3 gap-3'>
                         <div className='bg-white rounded-2xl flex items-center justify-center flex-col  py-7'>
                             <h1 className='font-bold'>{friend.days_since_contact}</h1>
