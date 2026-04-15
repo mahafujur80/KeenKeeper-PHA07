@@ -19,7 +19,7 @@ const HistoryTML = ({ filterHistory }) => {
                                 <img src={`${friend.type === "Text" ? TextImg : friend.type === "Call"? CallImg : VideoImg}`} alt={friend.type} />
                             </div>
                             <div>
-                                <p className='text-zinc-600'><span>Text</span> with <span>Nmae</span> </p>
+                                <p className='text-zinc-600'><span>{friend.type}</span> with <span>{friend.name}</span> </p>
                                 <p>{friend.date}</p>
                             </div>
                         </div>
