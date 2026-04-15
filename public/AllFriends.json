@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "John Doe",
-    "picture": "https://i.ibb.co.com/4ZyWTZt2/pexels-italo-melo-881954-2379005.jpg",
+    "picture": "https://i.ibb.co.com/yBZNVVBb/man5.jpg",
     "email": "john@example.com",
     "days_since_contact": 12,
     "status": "overdue",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Sarah Smith",
-    "picture": "https://i.ibb.co.com/KcgPqNXw/pexels-artosuraj-27665348.jpg",
+    "picture": "https://i.ibb.co.com/93TW5SQh/sdf.jpg",
     "email": "sarah@example.com",
     "days_since_contact": 5,
     "status": "on_track",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Michael Brown",
-    "picture": "https://i.ibb.co.com/bjNFxDNk/pexels-eric-moura-859101902-32270247.jpg",
+    "picture": "https://i.ibb.co.com/YFFJk2NM/man4.jpg",
     "email": "michael@example.com",
     "days_since_contact": 20,
     "status": "overdue",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Emily Johnson",
-    "picture": "https://i.ibb.co.com/rSV8kYd/pexels-beytlik-12216274.jpg",
+    "picture": "https://i.ibb.co.com/cX8YMVQb/man3.jpg",
     "email": "emily@example.com",
     "days_since_contact": 2,
     "status": "on_track",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "David Wilson",
-    "picture": "https://i.ibb.co.com/YT3wK4LX/pexels-olly-3777946.jpg",
+    "picture": "https://i.ibb.co.com/KzXvs10X/man1.jpg",
     "email": "david@example.com",
     "days_since_contact": 15,
     "status": "overdue",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Olivia Martinez",
-    "picture": "https://i.ibb.co.com/0jRSZw9T/pexels-hoang1nang-6962962.jpg",
+    "picture": "https://i.ibb.co.com/qMfZqMsd/girs-other-c.jpg",
     "email": "olivia@example.com",
     "days_since_contact": 3,
     "status": "on_track",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "James Anderson",
-    "picture": "https://i.ibb.co.com/TMDm6tFk/pexels-italo-melo-881954-2379004.jpg",
+    "picture": "https://i.ibb.co.com/5xhVPwhg/man2.jpg",
     "email": "james@example.com",
     "days_since_contact": 30,
     "status": "overdue",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Sophia Taylor",
-    "picture": "https://i.ibb.co.com/RTfzYqd5/pexels-bertellifotografia-13870723.jpg",
+    "picture": "https://i.ibb.co.com/bMTv8vt3/girls-oth-2.jpg",
     "email": "sophia@example.com",
     "days_since_contact": 1,
     "status": "on_track",
