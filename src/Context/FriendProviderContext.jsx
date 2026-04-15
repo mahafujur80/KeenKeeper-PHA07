@@ -45,7 +45,7 @@ const handleVideoBtn = (friend)=>{
         handleCallBtn,
         handleVideoBtn,
         handleTextBtn,
-        history
+        history,
     }
 
 

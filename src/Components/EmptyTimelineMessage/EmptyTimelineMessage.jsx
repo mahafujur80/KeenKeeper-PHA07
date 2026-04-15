@@ -2,7 +2,7 @@ import { FiClock } from "react-icons/fi";
 
 const EmptyTimelineMessage = () => {
     return (
-        <div className="flex flex-col items-center justify-center h-[60vh] text-center">
+        <div className="bg-white rounded-xl flex flex-col items-center justify-center h-[40vh] text-center">
             <FiClock className="text-5xl text-gray-300 mb-4" />
             <h2 className="text-2xl font-semibold text-gray-600">
                 No History Yet
