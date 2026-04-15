@@ -10,11 +10,11 @@ const HistoryTML = ({ filterHistory }) => {
     }
 
     return (
-        <div className='space-y-2 '>
+        <div className='space-y-3 '>
             {
                 filterHistory.map(friend => {
                     return (
-                        <div className='border flex gap-3 bg-white p-3 rounded-xl'>
+                        <div className='shadow flex gap-3 bg-white p-3 rounded-xl'>
                             <div>
                                 <img src={`${friend.type === "Text" ? TextImg : friend.type === "Call"? CallImg : VideoImg}`} alt={friend.type} />
                             </div>

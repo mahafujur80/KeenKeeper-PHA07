@@ -20,7 +20,7 @@ const Chart = () => {
         <div>
             <h2 className='text-[#244d3f] font-semibold'>By Interaction Type</h2>
             <div className='flex flex-col items-center justify-center'>
-                <PieChart style={{ width: '80%', maxWidth: '80%', maxHeight: '50vh', aspectRatio: 1 }} responsive>
+                <PieChart style={{ width: '80%', maxWidth: '80%', maxHeight: '40vh', aspectRatio: 1 }} responsive>
                     <Pie
                         data={data}
                         innerRadius="80%"
@@ -33,8 +33,8 @@ const Chart = () => {
                         dataKey="value"
                         isAnimationActive={true}
                     />
-                    <Legend />
                     <Tooltip />
+                    <Legend />
                 </PieChart>
 
             </div>
