@@ -16,7 +16,7 @@ const FriendCard = ({friend}) => {
                                     }
                                 </div>
                                 <div>
-                                   <p className={`badge text-white ${friend.status === 'overdue'? 'badge-error': 'badge-success'}`} >{friend.status}</p>
+                                   <p className={`badge text-white ${friend.status === 'overdue'? 'badge-error': friend.status === "almost due"? 'badge-warning': 'badge-success'}`} >{friend.status}</p>
                                 </div>
                             </div>
                         </Link>
